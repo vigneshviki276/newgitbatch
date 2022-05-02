@@ -10,6 +10,7 @@ public  class interfaces1{
 		System.out.println("1");
 		System.out.println("2");
 		System.out.println("3");
+		System.out.println("hello viki its created");
 		
 		try {
 		System.out.println(10/0);}

@@ -2,26 +2,18 @@
 package org. Samplesii;
 public  class interfaces1{
 
-
+private void add() {
+System.out.println("print the order");
+}
 
 
 	public static void main(String[] args) {
-		System.out.println("start");
-		System.out.println("1");
-		System.out.println("2");
-		System.out.println("3");
-		System.out.println("hello viki its created");
-		
-		try {
-		System.out.println(10/0);}
-						
-		catch(Throwable l){
-		System.out.println("dont/by zero");
-		}
-		System.out.println("4");
-		System.out.println("5");
-		System.out.println("end");
-		}
+		interfaces1 c= new interfaces1();
+	c.add();	
+	
+	
+	
+	}
 		}
 
 
